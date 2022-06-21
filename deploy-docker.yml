@@ -22,7 +22,7 @@
     - name: Start the container
       docker_container:
         name: hariapp
-        image: "ayb112/hariapp:{{DOCKER_TAG}}"
+        image: "ayb112/aaa2:{{DOCKER_TAG}}"
         state: started
         published_ports:
           - 0.0.0.0:8080:8080
